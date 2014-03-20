@@ -1,0 +1,11 @@
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\bin\Debug\ImportTrader.exe
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\bin\Debug\ImportTrader.pdb
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.exe
+C:\Users\richard.watts\documents\visual studio 2010\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.pdb
+C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\bin\Debug\ImportTrader.exe
+C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\bin\Debug\ImportTrader.pdb
+C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.csprojResolveAssemblyReference.cache
+C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.exe
+C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.pdb

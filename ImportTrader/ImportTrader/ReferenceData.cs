@@ -56,7 +56,7 @@ namespace ImportTrader
 
                 return ACCOUNT_549026_DE30_DESCRIPTION;
             }
-            else if (dataSetName.Contains("549556") && tableName.Contains("de"))
+            else if (dataSetName.Contains("607516") && tableName.Contains("de"))
             {
                 List<String> ACCOUNT_549556_DE30_DESCRIPTION = new List<String>();
                 ACCOUNT_549556_DE30_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the DE30");
@@ -82,7 +82,7 @@ namespace ImportTrader
 
                 return ACCOUNT_549556_DE30_DESCRIPTION;
             }
-            else if (dataSetName.Contains("549556") && tableName.Contains("eur"))
+            else if (dataSetName.Contains("607516") && tableName.Contains("eur"))
             {
                 List<String> ACCOUNT_549556_EURUSD_DESCRIPTION = new List<String>();
                 ACCOUNT_549556_EURUSD_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the EURUSD");
@@ -108,7 +108,7 @@ namespace ImportTrader
                 
                 return ACCOUNT_549556_EURUSD_DESCRIPTION;
             }
-            else if (dataSetName.Contains("549563") && tableName.Contains("de"))
+            else if (dataSetName.Contains("607520") && tableName.Contains("de"))
             {
                 List<String> ACCOUNT_549563_DE30_DESCRIPTION = new List<String>();
                 ACCOUNT_549563_DE30_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the DE30");
@@ -127,7 +127,7 @@ namespace ImportTrader
 
                 return ACCOUNT_549563_DE30_DESCRIPTION;
             }
-            else if (dataSetName.Contains("549563") && tableName.Contains("eur"))
+            else if (dataSetName.Contains("607520") && tableName.Contains("eur"))
             {
                 List<String> ACCOUNT_549563_EURUSD_DESCRIPTION = new List<String>();
                 ACCOUNT_549563_EURUSD_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the EURUSD");
@@ -223,6 +223,48 @@ namespace ImportTrader
                 ACCOUNT_549597_EURUSD_DESCRIPTION.Add("The stop is never altered");
 
                 return ACCOUNT_549597_EURUSD_DESCRIPTION;
+            }
+
+            else if (dataSetName.Contains("865584") && tableName.Contains("eur"))
+            {
+                List<String> ACCOUNT_865584_EURUSD_DESCRIPTION = new List<String>();
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("LIVE ACCOUNT");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the EURUSD.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("BOT NAME: EURUSD_ExpertDonkeyV2_2_5ADay_1Trade_BreakEvenStopAt10");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("It works on the premise that over 50% of the time the first EUR_USD true movement of the day is in the opposite direction to where the pair finishes the day");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Uses the 1M chart");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Places two pending trades at 6am, when one is triggered the other is cancelled.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("BOT PARAMETERS: ");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Distance from open = 11 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Take Profit = 39 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Stop Loss = 12 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Distance from open = 25 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Take Profit = 39 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Stop Loss = 12 pips.");
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Once the bot has made 10 pips the stop is set to the open price.");
+
+                return ACCOUNT_865584_EURUSD_DESCRIPTION;
+            }
+
+            else if (dataSetName.Contains("865584") && tableName.Contains("de"))
+            {
+                List<String> ACCOUNT_865584_EURUSD_DESCRIPTION = new List<String>();
+                ACCOUNT_865584_EURUSD_DESCRIPTION.Add("LIVE ACCOUNT");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("This bot is based on the 5 minutes a date trading strategy on the EURUSD");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("BOT NAME: EURUSD_ExpertDonkeyV2_2_5ADay_1Trade_NoStop");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("It works on the premise that over 50% of the time the first EUR_USD true movement of the day is in the opposite direction to where the pair finishes the day ");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Uses 1M chart");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Places two pending trades on open (one per direction), when one is triggered the other one are cancelled");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("BOT PARAMETERS: ");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Distance from open = 11 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Take Profit = 39 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Buy Stop Loss = 12 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Distance from open = 25 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Take Profit = 39 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("Sell Stop Loss = 12 pips");
+                //ACCOUNT_865584_EURUSD_DESCRIPTION.Add("The stop is never altered");
+
+                return ACCOUNT_865584_EURUSD_DESCRIPTION;
             }
             
             return new List<String>();

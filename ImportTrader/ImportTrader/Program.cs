@@ -472,10 +472,20 @@ namespace ImportTrader
                             }
                             else if (dr[1] != DBNull.Value)
                             {
-                                if (Convert.ToDateTime(dr[1]) < startDate || Convert.ToDateTime(dr[1]) > endDate)
+                                DateTime outputdt;
+                                String str = "";
+                                if (DateTime.TryParse(dr[1].ToString(), out outputdt))
+                                {
+                                    if (Convert.ToDateTime(dr[1]) < startDate || Convert.ToDateTime(dr[1]) > endDate)
+                                    {
+                                        dr.Delete();
+                                    }
+                                }
+                                else
                                 {
                                     dr.Delete();
                                 }
+                                
                             }
                         }
                         dt.AcceptChanges();

@@ -9,3 +9,8 @@ C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader
 C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.csprojResolveAssemblyReference.cache
 C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.exe
 C:\Users\Richard\Documents\Visual Studio 2012\Projects\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.pdb
+C:\Users\Richard\Documents\Software Development\Git Repositories\repImportTrader\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.exe
+C:\Users\Richard\Documents\Software Development\Git Repositories\repImportTrader\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.pdb
+C:\Users\Richard\Documents\Software Development\Git Repositories\repImportTrader\ImportTrader\ImportTrader\bin\Debug\ImportTrader.exe
+C:\Users\Richard\Documents\Software Development\Git Repositories\repImportTrader\ImportTrader\ImportTrader\bin\Debug\ImportTrader.pdb
+C:\Users\Richard\Documents\Software Development\Git Repositories\repImportTrader\ImportTrader\ImportTrader\obj\x86\Debug\ImportTrader.csprojResolveAssemblyReference.cache
